@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Webpack App</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"></head>
-  <base href="/CGModeling/">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="/CGModeling/" />
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        background-color: #000;
+      }
+      footer {
+        font-size: 0.8em;
+        color: #ccc;
+        text-align: center;
+        padding: 1em 0;
+        background: #111;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+      }
+      a {
+        color: #66ccff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
   <body>
-  <script src="vendors-node_modules_tweenjs_tween_js_dist_tween_esm_js-node_modules_lil-gui_dist_lil-gui_esm-9ea7c3.js"></script><script src="main.js"></script></body>
+    <script src="vendors-node_modules_tweenjs_tween_js_dist_tween_esm_js-node_modules_lil-gui_dist_lil-gui_esm-9ea7c3.js"></script>
+    <script src="main.js"></script>
+
+    <footer>
+      <p>使用ライブラリ: Three.js, Tween.js, lil-gui (MITライセンス)</p>
+      <p>
+        <a href="https://licenses.opensource.jp/MIT/MIT.html" target="_blank" rel="noopener noreferrer"
+          >MIT License 詳細</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
